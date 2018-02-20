@@ -1,0 +1,8 @@
+name: FloatInfo
+main: Nerahikada\FloatInfo
+version: 1.0.0.11
+api: [3.0.0, 3.0.0-ALHPA7, 3.0.0-ALHPA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+load: POSTWORLD
+author: ねらひかだ
+description: サーバーの情報を浮き文字で表示します (Floatinfo 作者不明 のリメイク版です)
+website: https://github.com/Nerahikada | https://twitter.com/Nerahikada
