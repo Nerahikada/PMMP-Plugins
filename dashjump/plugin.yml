@@ -1,0 +1,21 @@
+name: dashjump
+main: dashjump\dashjump
+version: 1.1.11
+api: [3.0.0, 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+load: POSTWORLD
+author: ikenusi
+authors: [ねらひかだ]
+description: 指定したブロックに乗るとジャンプしてとんでいく
+commands:
+ djb:
+  description: "ダッシュブロックの指定"
+  usage: " /djb <ブロックid>"
+  permission: djb.command
+permissions:
+ djb:
+  default: op
+  description: "Allows using all the dashjump things"
+  children:
+   djb.command:
+    default: op
+    description: "Allows using all the dashjump commands"
