@@ -1,16 +1,16 @@
 # PMMP-Plugins
-
+  
 ## 説明
 PMMPのプラグインの一覧  
 僕が昔使っていたプラグインを今のバージョンに対応させたものです。  
   
 一部のプラグインはコードの変更をしています。  
-例: 可読性の向上、パフォーマンスの向上、解凍禁止コマンドの削除 など
-
+例: 可読性の向上、パフォーマンスの向上、解凍禁止コマンドの削除 など  
+  
 ## 注意
 これらのプラグインはほとんどテストされていません！  
-動作するプラグイン、動作しないプラグインを**issue**もしくは**Twitter**で報告してくださるとありがたいです。
-
+動作するプラグイン、動作しないプラグインを**issue**もしくは**Twitter**で報告してくださるとありがたいです。  
+  
 ## List
  - [ ] **AlwaysSpawn**: スポーン地点を固定できるプラグイン。 <!-- [PocketMine Forums](https://forums.pocketmine.net/plugins/alwaysspawn.284/) --> [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/AlwaysSpawn_v2.2.2.11.phar)
  - [ ] **BanItem**: 荒らし対策プラグイン。使えないアイテムを指定できる。 <!-- [Github](https://github.com/LDX-MCPE/BanItem) --> [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/BanItem_v2.2.11.phar)
