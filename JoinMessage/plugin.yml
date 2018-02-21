@@ -1,0 +1,8 @@
+name: JoinMessage
+main: Nerahikada\JoinMessage
+version: 1.0.11
+api: [3.0.0, 3.0.0-ALHPA7, 3.0.0-ALHPA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+load: POSTWORLD
+author: ねらひかだ
+description: プレイヤーがサーバーに入った時に指定したメッセージを表示します
+website: https://github.com/Nerahikada | https://twitter.com/Nerahikada
