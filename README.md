@@ -22,5 +22,5 @@ PMMPのプラグインの一覧
  - [x] **DevTools**: プラグイン開発支援ツール。 <!-- [Github](https://github.com/pmmp/PocketMine-DevTools) --> [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/DevTools_v1.12.9.phar)
  - [x] **FloatInfo**: サーバーの情報が浮き文字で表示されるプラグイン。(リメイク版) [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/FloatInfo_v1.0.11.1.phar)
  - [ ] **IPLogger**: 荒らし対策プラグイン。IPを自動で記録してくれる。 <!-- [PocketMine Forusm](https://github.com/PEMapModder/Small-ZC-Plugins/tree/master/IPLogger) --> [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/IPLogger_v1.3.11.phar)
- - [x] **JoinMessage**: サーバーに入った時に指定したメッセージを送れる。 [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.11.phar)
+ - [x] **JoinMessage**: サーバーに入った時に指定したメッセージを送るプラグイン。 [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.11.phar)
  - [ ] **PocketMoney**: お金の概念を追加するプラグイン。 <!-- [Github](https://github.com/MinecrafterJPN/PocketMoney) --> [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PocketMoney_v4.0.1.11.phar)
