@@ -14,8 +14,8 @@ PMMPのプラグインの一覧
 ### BanItem
 [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/BanItem_v2.2.11.phar), Source([Github](https://github.com/LDX-MCPE/BanItem))  
 指定したアイテムを使用出来ないようにするプラグインです  
-|コマンド|説明|
-|---|---|
+| コマンド | 説明 |
+| --- | --- |
 |/banitem ban [アイテムID:メタ値]|指定したアイテムをBANします|
 |/banitem unban [アイテムID:メタ値]|BANしたアイテムを再び使えるようにします|
 |/banitem list|BANされたアイテムのリストを確認できます|
@@ -23,16 +23,16 @@ PMMPのプラグインの一覧
 ### dashjump
 [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/dashjump_v1.1.11.phar), Source([MinecraftPE ForumUploader](http://uploader.mcpe.jp/detail?c=140))  
 特定のブロックに乗ると前に飛びます  
-|コマンド|説明|
-|---|---|
+| コマンド | 説明 |
+| --- | --- |
 |/djb <ブロックID>|ダッシュするブロックを指定します|
 
 ### DevTools
 [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/DevTools_v1.12.9.phar), Source([Github](https://github.com/pmmp/PocketMine-DevTools))  
 プラグイン開発支援ツール  
 フォルダープラグインを読み込んだりする際に必要となるプラグインです  
-|コマンド|説明|
-|---|---|
+| コマンド | 説明 |
+| --- | --- |
 |/makeserver|srcからPocketMine-MP.pharを作成します|
 |/makeplugin <プラグインの名前>|プラグインのpharを作成します|
 |/checkperm <node> [プレイヤーの名前]|(<node>は不明) 権限を確認します|
@@ -44,8 +44,8 @@ PMMPのプラグインの一覧
 ### IPLogger
 [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/IPLogger_v1.3.11.phar), Source([Github](https://github.com/PEMapModder/Small-ZC-Plugins/tree/master/IPLogger))  
 サーバーにログインしたプレイヤーのIPを記録します  
-|コマンド|説明|
-|---|---|
+| コマンド | 説明 |
+| --- | --- |
 |/iplog <プレイヤーの名前>|プレイヤーのIPを確認します|
 
 ### JoinMessage
@@ -55,8 +55,8 @@ PMMPのプラグインの一覧
 ### PocketMoney
 [Download](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PocketMoney_v4.0.1.11.phar), Source([Github](https://github.com/MinecrafterJPN/PocketMoney))  
 お金の要素を追加します
-|コマンド|説明|補足|
-|---|---|---|
+| コマンド | 説明 | 補足 |
+| --- | --- | --- |
 |/money|自分の持っているお金を確認します||
 |/moeny help|コマンドの一覧を表示します||
 |/money view <プレイヤー名>|プレイヤーの詳細を表示します||
