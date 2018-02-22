@@ -4,5 +4,5 @@ authors: [ねらひかだ]
 version: 2.2.3.11
 api: [3.0.0, 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
 main: philipshilling\alwaysspawn\Loader
-load: STARTUP
+load: POSTWORLD
 description: "Force your users to spawn every time they login!"
