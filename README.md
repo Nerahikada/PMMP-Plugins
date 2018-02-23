@@ -49,7 +49,7 @@ PMMPのプラグインの一覧
 |/makeplugin <プラグインの名前>|プラグインのpharを作成します|
 |/extractplugin <プラグインの名前>|phar形式のプラグインを解凍します|
 |/genplugin <プラグインの名前> <作者名>|フォルダープラグインのテンプレートを作成します|
-|/checkperm <node> [プレイヤーの名前]|(<node>は不明) 権限を確認します|
+|/checkperm \<node\> [プレイヤーの名前]|(\<node\>は不明) 権限を確認します|
 
 
 ## FloatInfo
