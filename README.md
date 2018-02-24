@@ -1,21 +1,21 @@
 # PMMP-Plugins
-PMMPのプラグインの一覧  
-僕が昔使っていたプラグインや[これら](http://pmwiki.tech/%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E7%B4%B9%E4%BB%8B)を今のバージョンに対応させたものです  
+PMMPのプラグインの一覧<br>
+僕が昔使っていたプラグインや[これら](http://pmwiki.tech/%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E7%B4%B9%E4%BB%8B)を今のバージョンに対応させたものです<br>
 バージョンの対応のほかに、コードを変更しているプラグインもあります
 
 <br>
 
 ## AlwaysSpawn
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/AlwaysSpawn_v2.2.3.11.phar)  
-[PocketMine Forums](https://forums.pocketmine.net/plugins/alwaysspawn.284/)  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/AlwaysSpawn_v2.2.3.11.phar)<br>
+[PocketMine Forums](https://forums.pocketmine.net/plugins/alwaysspawn.284/)
 
 プレイヤーがサーバーに参加すると、プレイヤーがスポーン地点にスポーンします
 
 
 ## BanItem
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/BanItem_v2.2.11.phar)  
-[Github](https://github.com/LDX-MCPE/BanItem)  
-  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/BanItem_v2.2.11.phar)<br>
+[Github](https://github.com/LDX-MCPE/BanItem)
+
 指定したアイテムを使用出来ないようにするプラグインです
 
 | コマンド | 説明 |
@@ -26,9 +26,9 @@ PMMPのプラグインの一覧
 
 
 ## dashjump
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/dashjump_v1.1.11.phar)  
-[MinecraftPE ForumUploader](http://uploader.mcpe.jp/detail?c=140)  
-  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/dashjump_v1.1.11.phar)<br>
+[MinecraftPE ForumUploader](http://uploader.mcpe.jp/detail?c=140)
+
 特定のブロックに乗ると前に飛びます
 
 | コマンド | 説明 |
@@ -37,10 +37,10 @@ PMMPのプラグインの一覧
 
 
 ## DevTools
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/DevTools_v1.12.9.phar)  
-[Github](https://github.com/pmmp/PocketMine-DevTools)  
-  
-プラグイン開発支援ツール  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/DevTools_v1.12.9.phar)<br>
+[Github](https://github.com/pmmp/PocketMine-DevTools)
+
+プラグイン開発支援ツール<br>
 フォルダープラグインを読み込んだりする際に必要となるプラグインです
 
 | コマンド | 説明 |
@@ -53,16 +53,16 @@ PMMPのプラグインの一覧
 
 
 ## FloatInfo
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/FloatInfo_v1.0.11.1.phar)  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/FloatInfo_v1.0.11.1.phar)<br>
 ※Floatinfo(リンク不明、作者不明)をリメイクしました
 
 サーバーの情報が浮き文字で表示されます
 
 
 ## IPLogger
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/IPLogger_v1.3.11.phar)  
-[Github](https://github.com/PEMapModder/Small-ZC-Plugins/tree/master/IPLogger)  
-  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/IPLogger_v1.3.11.phar)<br>
+[Github](https://github.com/PEMapModder/Small-ZC-Plugins/tree/master/IPLogger)
+
 サーバーにログインしたプレイヤーのIPを記録します
 
 | コマンド | 説明 |
@@ -71,15 +71,15 @@ PMMPのプラグインの一覧
 
 
 ## JoinMessage
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.11.phar)  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.11.phar)<br>
 
 サーバーに入った時、指定したメッセージを送信します
 
 
 ## PocketMoney
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PocketMoney_v4.0.1.11.phar)  
-[Github](https://github.com/MinecrafterJPN/PocketMoney)  
-  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PocketMoney_v4.0.1.11.phar)<br>
+[Github](https://github.com/MinecrafterJPN/PocketMoney)
+
 お金の要素を追加します
 
 | コマンド | 説明 | 補足 |
@@ -96,8 +96,8 @@ PMMPのプラグインの一覧
 
 
 ## PopupDisplayer
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.11.phar)  
-※[PopupDisplayer (Github)](https://github.com/JonathanImperato/PopupDisplayer) をリメイクしました  
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.11.phar)<br>
+※[PopupDisplayer (Github)](https://github.com/JonathanImperato/PopupDisplayer) をリメイクしました
 
-サーバーに入ると、画面下にメッセージが表示されます  
+サーバーに入ると、画面下にメッセージが表示されます<br>
 config.ymlのtypeには tip もしくは popup が使用できます
