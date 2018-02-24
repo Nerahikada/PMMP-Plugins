@@ -92,3 +92,11 @@ PMMPのプラグインの一覧
 |/money set <プレイヤー名> <金額>|指定したプレイヤーのお金を<金額>にセットします|コンソールからのみ使用可能です|
 |/money hide <プレイヤー名>|指定したプレイヤーを非表示します||
 |/money unhide <プレイヤー名>|指定したプレイヤーを再表示します||
+
+
+## PopupDisplayer
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.11.phar)
+[Github](https://github.com/JonathanImperato/PopupDisplayer)
+
+サーバーに入ると、画面下にメッセージが表示されます
+config.ymlのtypeには tip もしくは popup が使用できます

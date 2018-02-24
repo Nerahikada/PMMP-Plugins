@@ -1,0 +1,8 @@
+name: PopupDisplayer
+main: Nerahikada\PopupDisplayer
+version: 1.0.11
+api: [3.0.0, 3.0.0-ALHPA7, 3.0.0-ALHPA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+load: POSTWORLD
+author: ねらひかだ
+description: サーバーに入った時に画面下にメッセージを表示します (PopupDisplayer(https://github.com/JonathanImperato/PopupDisplayer))
+website: https://github.com/Nerahikada | https://twitter.com/Nerahikada
