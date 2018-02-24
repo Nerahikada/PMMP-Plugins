@@ -54,6 +54,7 @@ PMMPのプラグインの一覧
 
 ## FloatInfo
 [**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/FloatInfo_v1.0.11.1.phar)  
+※Floatinfo(リンク不明、作者不明)をリメイクしました
 
 サーバーの情報が浮き文字で表示されます
 
@@ -95,8 +96,8 @@ PMMPのプラグインの一覧
 
 
 ## PopupDisplayer
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.11.phar)
-[Github](https://github.com/JonathanImperato/PopupDisplayer)
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.11.phar)  
+[PopupDisplayer(Github)](https://github.com/JonathanImperato/PopupDisplayer)をリメイクしました  
 
-サーバーに入ると、画面下にメッセージが表示されます
+サーバーに入ると、画面下にメッセージが表示されます  
 config.ymlのtypeには tip もしくは popup が使用できます
