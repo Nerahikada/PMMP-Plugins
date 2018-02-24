@@ -97,7 +97,7 @@ PMMPのプラグインの一覧
 
 ## PopupDisplayer
 [**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.11.phar)  
-[PopupDisplayer(Github)](https://github.com/JonathanImperato/PopupDisplayer)をリメイクしました  
+※[PopupDisplayer (Github)](https://github.com/JonathanImperato/PopupDisplayer) をリメイクしました  
 
 サーバーに入ると、画面下にメッセージが表示されます  
 config.ymlのtypeには tip もしくは popup が使用できます
