@@ -70,12 +70,28 @@ PMMPのプラグインの一覧<br>
 | コマンド | 説明 |
 | --- | --- |
 |/iplog <プレイヤーの名前>|プレイヤーのIPを確認します|
+|/iphist <プレイヤーの名前>|プレイヤーのIPを確認します|
+|/ipl <プレイヤーの名前>|プレイヤーのIPを確認します|
+|/iph <プレイヤーの名前>|プレイヤーのIPを確認します|
 
 
 ## JoinMessage
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.11.phar)
 
 サーバーに入った時、指定したメッセージを送信します
+
+
+## MultiTP
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/MultiTP_v2.0.0.11.phar)<br>
+[Github](https://github.com/Minifixio/pocketmine-multitp-plugin)
+
+スポンジブロックをタップすると、ランダムな場所へテレポートします
+
+| コマンド | 説明 |
+| --- | --- |
+|/mtpset|ランダムなスポーンポイントを追加します|
+|/mtpreset|スポーンポイントを全てリセットします|
+|/mtpset|MultiTPについての更なる情報を表示します|
 
 
 ## PocketMoney

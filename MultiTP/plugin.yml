@@ -1,0 +1,25 @@
+name: MultiTP
+main: Minifixio\multitp\MultiTP
+version: 2.0.0.11
+api: [3.0.0, 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+description: MultiTP teleport a player in a random position in the world.
+author: Minifixio
+authors: [ねらひかだ]
+
+commands:
+ mtpset:
+  description: Set a random spawn position at current player position.
+  usage: "Usage: /mtpset"
+  permission: multitp.command.opcommands
+ mtpreset:
+  description: Reset all random spawn positions.
+  usage: "Usage: /mtpreset"
+  permission: multitp.command.opcommands
+ mtpinfo:
+  description: More informations about MultiTP.
+  usage: "Usage: /mtpinfo"
+
+permissions:
+ multitp.command.opcommands:
+  description: "MultiTP OP permissions"
+  default: op
