@@ -8,14 +8,14 @@ PMMPのプラグインの一覧<br>
 <br>
 
 ## AlwaysSpawn
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/AlwaysSpawn_v2.2.3.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/AlwaysSpawn_v2.2.3.12.phar)<br>
 [PocketMine Forums](https://forums.pocketmine.net/plugins/alwaysspawn.284/)
 
 プレイヤーがサーバーに参加すると、プレイヤーがスポーン地点にスポーンします
 
 
 ## BanItem
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/BanItem_v2.2.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/BanItem_v2.2.12.phar)<br>
 [Github](https://github.com/LDX-MCPE/BanItem)
 
 指定したアイテムを使用出来ないようにするプラグインです
@@ -28,7 +28,7 @@ PMMPのプラグインの一覧<br>
 
 
 ## dashjump
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/dashjump_v1.1.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/dashjump_v1.1.12.phar)<br>
 [MinecraftPE ForumUploader](http://uploader.mcpe.jp/detail?c=140)
 
 特定のブロックに乗ると前に飛びます
@@ -39,7 +39,7 @@ PMMPのプラグインの一覧<br>
 
 
 ## DevTools
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/DevTools_v1.12.9.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/DevTools_v1.12.10.phar)<br>
 [Github](https://github.com/pmmp/PocketMine-DevTools)
 
 プラグイン開発支援ツール<br>
@@ -51,18 +51,18 @@ PMMPのプラグインの一覧<br>
 |/makeplugin <プラグインの名前>|プラグインのpharを作成します|
 |/extractplugin <プラグインの名前>|phar形式のプラグインを解凍します|
 |/genplugin <プラグインの名前> <作者名>|フォルダープラグインのテンプレートを作成します|
-|/checkperm \<node\> [プレイヤーの名前]|(\<node\>は不明) 権限を確認します|
+|/checkperm \<node\> [プレイヤーの名前]|(\<node\>は不明) 許可ノードをチェックします (?)|
 
 
 ## FloatInfo
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/FloatInfo_v1.0.11.1.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/FloatInfo_v1.0.12.phar)<br>
 ※Floatinfo(リンク不明、作者不明)をリメイクしました
 
 サーバーの情報が浮き文字で表示されます
 
 
 ## IPLogger
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/IPLogger_v1.3.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/IPLogger_v1.3.12.phar)<br>
 [Github](https://github.com/PEMapModder/Small-ZC-Plugins/tree/master/IPLogger)
 
 サーバーにログインしたプレイヤーのIPを記録します
@@ -76,13 +76,13 @@ PMMPのプラグインの一覧<br>
 
 
 ## JoinMessage
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.11.phar)
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/JoinMessage_v1.0.12.phar)
 
 サーバーに入った時、指定したメッセージを送信します
 
 
 ## MultiTP
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/MultiTP_v2.0.0.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/MultiTP_v2.0.0.12.phar)<br>
 [Github](https://github.com/Minifixio/pocketmine-multitp-plugin)
 
 スポンジブロックをタップすると、ランダムな場所へテレポートします
@@ -95,7 +95,7 @@ PMMPのプラグインの一覧<br>
 
 
 ## PocketMoney
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PocketMoney_v4.0.1.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PocketMoney_v4.0.1.12.phar)<br>
 [Github](https://github.com/MinecrafterJPN/PocketMoney)
 
 お金の要素を追加します
@@ -114,7 +114,7 @@ PMMPのプラグインの一覧<br>
 
 
 ## PopupDisplayer
-[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.11.phar)<br>
+[**ダウンロード**](https://github.com/Nerahikada/PMMP-Plugins/releases/download/Plugins/PopupDisplayer_v1.0.12.phar)<br>
 ※[PopupDisplayer (Github)](https://github.com/JonathanImperato/PopupDisplayer) をリメイクしました
 
 サーバーに入ると、画面下にメッセージが表示されます<br>

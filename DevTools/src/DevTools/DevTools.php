@@ -203,7 +203,9 @@ class DevTools extends PluginBase implements CommandExecutor{
 		$reflection = new \ReflectionClass("pocketmine\\plugin\\PluginBase");
 		$file = $reflection->getProperty("file");
 		$file->setAccessible(true);
-		$filePath = rtrim(str_replace("\\", "/", $file->getValue($plugin)), "/") . "/";
+		$filePath = realpath($file->getValue($plugin));
+		assert(is_string($filePath));
+		$filePath = rtrim($filePath, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
 
 		$this->buildPhar($sender, $pharPath, $filePath, [], $metadata, $stub, \Phar::SHA1);
 
@@ -231,8 +233,8 @@ class DevTools extends PluginBase implements CommandExecutor{
 
 		$stub = '<?php require_once("phar://". __FILE__ ."/src/pocketmine/PocketMine.php");  __HALT_COMPILER();';
 
-		$filePath = realpath(\pocketmine\PATH) . "/";
-		$filePath = rtrim(str_replace("\\", "/", $filePath), "/") . "/";
+		$filePath = realpath(\pocketmine\PATH) . DIRECTORY_SEPARATOR;
+		$filePath = rtrim($filePath, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
 
 		$this->buildPhar($sender, $pharPath, $filePath, ['src', 'vendor'], $metadata, $stub, \Phar::SHA1);
 
@@ -248,7 +250,12 @@ class DevTools extends PluginBase implements CommandExecutor{
 	private function buildPhar(CommandSender $sender, string $pharPath, string $basePath, array $includedPaths, array $metadata, string $stub, int $signatureAlgo = \Phar::SHA1){
 		if(file_exists($pharPath)){
 			$sender->sendMessage("Phar file already exists, overwriting...");
-			\Phar::unlinkArchive($pharPath);
+			try{
+				\Phar::unlinkArchive($pharPath);
+			}catch(\PharException $e){
+				//unlinkArchive() doesn't like dodgy phars
+				unlink($pharPath);
+			}
 		}
 
 		$sender->sendMessage("[DevTools] Adding files...");
@@ -262,7 +269,7 @@ class DevTools extends PluginBase implements CommandExecutor{
 
 		//If paths contain any of these, they will be excluded
 		$excludedSubstrings = [
-			"/.", //"Hidden" files, git information etc
+			DIRECTORY_SEPARATOR . ".", //"Hidden" files, git information etc
 			realpath($pharPath) //don't add the phar to itself
 		];
 
@@ -272,7 +279,11 @@ class DevTools extends PluginBase implements CommandExecutor{
 			implode('|', $this->preg_quote_array($includedPaths, '/')) //... and must be followed by one of these relative paths, if any were specified. If none, this will produce a null capturing group which will allow anything.
 		);
 
-		$count = count($phar->buildFromDirectory($basePath, $regex));
+		$directory = new \RecursiveDirectoryIterator($basePath, \FilesystemIterator::SKIP_DOTS | \FilesystemIterator::FOLLOW_SYMLINKS | \FilesystemIterator::CURRENT_AS_PATHNAME); //can't use fileinfo because of symlinks
+		$iterator = new \RecursiveIteratorIterator($directory);
+		$regexIterator = new \RegexIterator($iterator, $regex);
+
+		$count = count($phar->buildFromIterator($regexIterator, $basePath));
 		$sender->sendMessage("[DevTools] Added $count files");
 
 		$sender->sendMessage("[DevTools] Checking for compressible files...");

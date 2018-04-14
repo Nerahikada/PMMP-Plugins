@@ -1,8 +1,8 @@
 name: AlwaysSpawn
 author: Philip Shilling
 authors: [ねらひかだ]
-version: 2.2.3.11
-api: [3.0.0, 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+version: 2.2.3.12
+api: [3.0.0, 3.0.0-ALHPA7, 3.0.0-ALHPA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12]
 main: philipshilling\alwaysspawn\Loader
 load: POSTWORLD
 description: "Force your users to spawn every time they login!"
